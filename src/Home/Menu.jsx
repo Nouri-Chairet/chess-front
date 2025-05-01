@@ -1,4 +1,3 @@
-import { form } from 'framer-motion/client'
 import React from 'react'
 import Pv1 from '../assets/1vs1.png'
 import Pv2 from '../assets/online.png'

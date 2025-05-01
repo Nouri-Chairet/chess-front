@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Canvas } from '@react-three/fiber';
-import { motion } from 'framer-motion-3d'; // Framer Motion 3D for Three.js animations
 import  ChessboardModel  from './ChessBoardModal'; // Your 3D model component
 import { OrbitControls } from '@react-three/drei';
 import KingB from './ModelB';
