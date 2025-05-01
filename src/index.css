@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-position: center;
+  background-color: #050101;
+  background-repeat: repeat;
+  background-size: cover;
+  height: 100vh;
+  width:100wh;
+  overflow: hidden;
+}
+
+
+
+
+
