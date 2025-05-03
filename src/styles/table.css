@@ -117,16 +117,16 @@ option  {
     height: 50px;
   }
   .chess-cell {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
   }
   .promotion-square {
-    width: 62px;
-    height: 62px;
+    width: 52px;
+    height: 52px;
   }
   option {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -147,22 +147,22 @@ option  {
     gap: 27px
   }
   ul li {
-    width: 24px;
-    height: 24px;
+    width: 34px;
+    height: 34px;
     font-size: 0.7rem;
   }
   .chess-cell {
-    width: 48px;
-    height: 48px;
+    width: 38px;
+    height: 38px;
   }
   .promotion-square {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     font-size: 0.7rem;
   }
   option {
-    width: 48px;
-    height: 48px;
+    width: 38px;
+    height: 38px;
     font-size: 0.7rem;
   }
   .piece {
