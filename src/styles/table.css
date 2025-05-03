@@ -1,6 +1,6 @@
 .chess-table {
   background-color: #f7f7f7;
-  padding-top: 26px;
+  padding-top: 26px !important;
   padding-right: 26px;
   padding-bottom:8px;
   display: flex;
@@ -9,6 +9,7 @@
   margin-top: 5vh;
   border: #000000 solid 2px;
 }
+
 .chess-row {
   display: flex;
   flex-direction: row;
@@ -108,7 +109,8 @@ option  {
     padding: 10px;
   }
   ul {
-    height: auto;
+    position: absolute;
+    gap: 27px;
   }
   ul li {
     width: 50px;
@@ -128,6 +130,10 @@ option  {
   }
 }
 @media screen and (max-width: 600px) {
+  .container-chess-table{
+    padding-top: 5vh;
+
+  }
   .chess-table {
     flex-direction: column;
     height: auto;
@@ -137,7 +143,8 @@ option  {
     border-width: 1px;
   }
   ul {
-    height: auto;
+    position: absolute;
+    gap: 27px
   }
   ul li {
     width: 24px;
@@ -145,17 +152,17 @@ option  {
     font-size: 0.7rem;
   }
   .chess-cell {
-    width: 28px;
-    height: 28px;
+    width: 48px;
+    height: 48px;
   }
   .promotion-square {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     font-size: 0.7rem;
   }
   option {
-    width: 28px;
-    height: 28px;
+    width: 48px;
+    height: 48px;
     font-size: 0.7rem;
   }
   .piece {
@@ -166,6 +173,44 @@ option  {
     font-size: 0.7rem;
     margin-left: 5px;
     margin-right: 5px;
+  }
+}
+
+.table-container {
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.chess-table {
+  margin: 0 auto;
+}
+
+.alpha {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+@media screen and (max-width: 600px) {
+  .table-container {
+    width: 100vw;
+    padding: 0;
+  }
+  .chess-table {
+    width: 100vw;
+    min-width: unset;
+    max-width: 100vw;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .alpha {
+    margin-top: 2px;
+    margin-bottom: 2px;
   }
 }
 
