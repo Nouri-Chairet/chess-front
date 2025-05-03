@@ -53,7 +53,46 @@
         height: 30px;
     }
   
+@media (max-width: 900px) {
+  .card {
+    min-width: 120px;
+    height: 160px;
+    padding-top: 10px;
+    font-size: 1rem;
+  }
+  .playerName {
+    font-size: 1.1rem;
+  }
+  .score {
+    font-size: 1rem;
+  }
+  .pieces-taken img {
+    width: 20px;
+    height: 20px;
+  }
+}
 
+@media (max-width: 600px) {
+  .card {
+    min-width: 80px;
+    height: 110px;
+    padding-top: 5px;
+    font-size: 0.8rem;
+  }
+  .playerName {
+    font-size: 0.9rem;
+  }
+  .score {
+    font-size: 0.8rem;
+  }
+  .pieces-taken {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .pieces-taken img {
+    width: 14px;
+    height: 14px;
+  }
+}
   
   
   

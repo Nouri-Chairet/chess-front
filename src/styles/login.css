@@ -161,4 +161,49 @@
     font-weight: 700;
 }
 
+@media (max-width: 900px) {
+  .login-container {
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+    width: 100vw;
+  }
+  .login-form {
+    padding: 20px;
+    align-items: center;
+    width: 100vw;
+  }
+  .login-image {
+    display: none;
+  }
+  .input-group {
+    min-width: 200px;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .login-form h1 {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    max-width: 100vw;
+  }
+  .login-form {
+    padding: 10px;
+  }
+  .input-group input {
+    font-size: 1rem;
+    padding: 8px;
+  }
+  .login-button {
+    font-size: 1rem;
+    padding: 8px;
+  }
+  .social-login {
+    width: 100%;
+  }
+}
+
 

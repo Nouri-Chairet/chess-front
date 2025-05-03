@@ -139,3 +139,76 @@
     align-items: center;
     z-index: -0;
 }
+
+@media (max-width: 900px) {
+  .header-Home {
+    height: 8vh;
+    margin-bottom: 3%;
+  }
+  .welcome {
+    font-size: 2rem;
+  }
+  .chessi {
+    font-size: 2.2rem;
+    padding-top: 60px;
+    padding-left: 60px;
+  }
+  .King {
+    width: 50vw;
+    height: 60vh;
+    left: -5%;
+    top: -20%;
+  }
+  .card-mode-container {
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    padding: 10px;
+  }
+  .card-mode {
+    width: 90vw;
+    height: 250px;
+    margin: 10px auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-Home {
+    height: 6vh;
+    margin-bottom: 2%;
+  }
+  .welcome {
+    font-size: 1.2rem;
+    padding: 0 5px;
+  }
+  .chessi {
+    font-size: 1.2rem;
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+  .King {
+    width: 80vw;
+    height: 30vh;
+    left: 0;
+    top: 0;
+  }
+  .container-home {
+    padding: 0 2vw;
+    height: auto;
+  }
+  .card-mode-container {
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    padding: 0;
+  }
+  .card-mode {
+    width: 95vw;
+    height: 180px;
+    margin: 8px auto;
+  }
+  .card-text-container {
+    font-size: 0.9rem;
+    height: 40%;
+  }
+}
